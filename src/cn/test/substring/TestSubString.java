@@ -1,0 +1,15 @@
+package cn.test.substring;
+
+/**
+ * @Describle:
+ * @Author:zhangyifei
+ * @Date:2018/11/8
+ */
+public class TestSubString {
+    public static void main(String[] args) {
+        String s = "https://static.mysiteforme.com/ac628538a1e04a329a7f3ae8c6b7120c";
+        System.out.println(s.lastIndexOf("/"));
+        String substring = s.substring(s.indexOf("/"));
+        System.out.println(substring);
+    }
+}
