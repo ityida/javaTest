@@ -11,5 +11,10 @@ public class TestSubString {
         System.out.println(s.lastIndexOf("/"));
         String substring = s.substring(s.indexOf("/"));
         System.out.println(substring);
+
+        System.out.println("================================");
+        String ss = "沪AD09695";
+        String newStr = ss.substring(ss.length() - 6);
+        System.out.println(newStr);
     }
 }
