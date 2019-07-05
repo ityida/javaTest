@@ -12,5 +12,14 @@ public class Test {
 
         System.out.println(s.length());
         System.out.println(ss.length());
+        System.out.println("======================");
+
+        String code = "    abc  eff    de t   sfsd    ooop ";
+        String replace = code.replaceAll(" ", "");
+        System.out.println("::::|"+replace+"|");
+
+
+
+
     }
 }
